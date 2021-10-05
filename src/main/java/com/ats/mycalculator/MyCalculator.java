@@ -5,7 +5,9 @@ import java.util.Scanner;
 
 public class MyCalculator {
     public static void main(String[] args) {
+
         System.out.println("Was wollen sie machen +,-,*");
+
         Scanner sc = new Scanner(System.in);
 
         String eingabe = sc.nextLine();
@@ -30,7 +32,7 @@ public class MyCalculator {
     }
 
     private void sub(){
-
+      int i = 9999 - 1;
     }
 
     private void add(){
