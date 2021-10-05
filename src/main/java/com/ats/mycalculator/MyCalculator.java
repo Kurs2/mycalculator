@@ -29,8 +29,8 @@ public class MyCalculator {
 
     }
 
-    private void sub(){
-        return 1-1 //heit bin i motiviert
+    private int sub(){
+        return 1-1; //heit bin i motiviert
     }
 
     private int add(){
