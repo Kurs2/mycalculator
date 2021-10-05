@@ -53,6 +53,6 @@ public class MyCalculator {
     }
 
     public static Map<Map, Map> newMapMapMapSir() { //(C) Phantom
-        return new HashMap();
+        return new HashMap(); //This feature, best feature
     }
 }
