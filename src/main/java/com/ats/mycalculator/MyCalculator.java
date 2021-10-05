@@ -25,8 +25,19 @@ public class MyCalculator {
         
     }
 
-    private void prod(){
+    private String prod(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("p")
+                .append("r")
+                .append("o")
+                .append("d");
 
+        String s = "prod";
+
+        if (s.equals(sb.toString()))
+            return sb.toString();
+
+        return new RuntimeException().toString(); //hehehehehehehe
     }
 
     private int sub(){
