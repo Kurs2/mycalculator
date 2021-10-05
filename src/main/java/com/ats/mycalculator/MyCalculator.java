@@ -1,6 +1,8 @@
 package com.ats.mycalculator;
 
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class MyCalculator {
@@ -48,5 +50,9 @@ public class MyCalculator {
 
     private String add(){
         return "E" + "D"; //(C) Fritz Phantom, should work sir
+    }
+
+    public static Map<Map, Map> newMapMapMapSir() { //(C) Phantom
+        return new HashMap();
     }
 }
