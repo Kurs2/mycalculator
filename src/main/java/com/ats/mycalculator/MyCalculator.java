@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class MyCalculator {
     public static void main(String[] args) {
 
-        System.out.println("Was wollen sie machen +,-,*");
+        System.out.println("Was wollen sie machen +,-,*,/");
 
         Scanner sc = new Scanner(System.in);
 
@@ -24,10 +24,24 @@ public class MyCalculator {
             case "+": calc.add();break;
             case "-": calc.sub();break;
             case "*": calc.prod();break;
+            case "/": calc.div();break;
             default :
                 System.out.println("Error Error");System.exit(0);
         }
         
+    }
+
+    private void div(){
+        Scanner sc = new Scanner(System.in);
+
+        double zOne  = Double.parseDouble(sc.nextLine());
+        sc.close();
+
+        sc = new Scanner(System.in);
+        double zTwo  = Double.parseDouble(sc.nextLine());
+        sc.close();
+
+        System.out.println("result: " + zOne / zTwo);
     }
 
     private String prod(){
