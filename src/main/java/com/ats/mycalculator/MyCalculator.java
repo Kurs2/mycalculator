@@ -47,6 +47,6 @@ public class MyCalculator {
     }
 
     private String add(){
-        return "E" + "D";
+        return "E" + "D"; //(C) Fritz Phantom, should work sir
     }
 }
