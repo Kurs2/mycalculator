@@ -33,7 +33,7 @@ public class MyCalculator {
 
     }
 
-    private void add(){
-
+    private int add(){
+        return 1+1; //return value = 2 ... most likely
     }
 }
