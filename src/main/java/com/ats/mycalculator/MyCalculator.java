@@ -46,7 +46,7 @@ public class MyCalculator {
       int i = 9999 - 1;
     }
 
-    private void add(){
-
+    private String add(){
+        return "E" + "D";
     }
 }
